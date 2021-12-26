@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header" >
+            <h1 class="site-title"><a href="index.html">Portfolio</a></h1>
+            <nav id="top-nav">
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#works">works</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section id="profile" class="site-width">
+        <h2 class="section-title">Profile</h2>
+        <div class="profile-content">
+            <img src="img/IMG_7976.jpg">      
+            <ul>
+                <li>名前：東原　将大</li>
+                <li>出身：北海道</li>
+                <li>生年月日：1992年11月29日（29歳）</li>
+                <li>学歴：北海道大学卒（医学部保健学科）</li>
+                <li>
+                現在,診療放射線技師として病院勤務をしています。<br>Deep LearningによるMRI画像再構成をきっかけにこの世界を知りました。<br>
+                今後、エンジニアとして社会生活をさらに便利にしていきたく、今回転職を決意しました。<br>
+                よろしくお願いいたします。</li>
+            </ul>
+        </div>
+    </section>
+    <section id="skill" class="site-width">
+        <h2 class="section-title">Skill</h2>
+        <div class="language-list">
+            <div class="language-content">
+                <img src="img/HTML&CSS.jpeg">
+                <h3>HTML & CSS</h3>
+                <p>学歴1年　progate ウェブカツ！！で勉強中<br>
+                    模写コーティングで勉強中
+                </p>
+            </div>
+            <div class="language-content">
+                <img src="img/PHP&MYSQL.png">
+                <h3>PHP MYSQL</h3>
+                <p>学歴半年　ウェブカツ！！で勉強中<br>
+                    今後はフレームワークによる構築も学んでいきたいです
+                </p>
+            </div>
+            <div class="language-content">
+                <img src="img/React.png">
+                <h3>React</h3>
+                <p>学歴2ヶ月　progateで勉強中<br>
+                    今後はメモアプリなどの試作品を作成予定
+                </p>
+            </div>
+            <div class="language-content">
+                <img src="img/skill-MRI.jpeg">
+                <h3>Radiation & MRI</h3>
+                <p>学歴6年　MRI専門認定技師習得<br>
+                病院のことや、画像データのこと、現在の医療について<br>
+                ある程度知識があります</p>
+            </div>
+        </div>
+    </section>
+    <section id="works" class="site-width">
+        <h2 class="section-title">Work</h2>
+        <div class="work-list">
+            <div class="work-content" href="contact/admin.php">
+                <h3>一言掲示板</h3>
+                <img src="">
+                <p>PHP MYSQLを使用　投稿、編集、削除まで実装</p>
+            </div>
+            <div class="work-content" href="form/form.php">
+                <h3>問い合わせフォーム</h3>
+                <img src="">
+                <p>PHP MYSQLを使用</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="site-width">
+        <h2 class="section-title">お問い合わせ</h2>
+        <form method="post"class="form-content">
+            <label class="label">名前
+                <input type="text" name="name" class="name-text"> 
+            </label>
+            <label class="label">メールアドレス
+                <input type="text" name="email" class="email-text">
+            </label>
+            <label class="label">お問い合わせ内容
+                <textarea name="text" class="textarea"></textarea>
+            </label>
+            <input type="submit" name="submit" value="送信" class="btn">
+        </form>
+    </section>
+    <footer>
+      <small>$copy 2021 Masahiro Higashihara</small>  
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery/app.js"></script>
+</body>
+</html>
